@@ -107,7 +107,7 @@ export function Page() {
             <div className="p-6 sm:p-8 md:p-12 lg:p-16 flex flex-col justify-center lg:w-3/5">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 flex items-center">
                 <span className="mr-2 md:mr-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">👋</span>
-                Hey, I'm Bibek
+                Hey, I&apos;m Bibek
               </h1>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gray-700">Full-Stack Developer.</h2>
               <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 leading-relaxed">
@@ -118,7 +118,7 @@ export function Page() {
                   onClick={openMailApp}
                   className="bg-yellow-400 text-black font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-yellow-500 transition duration-300 text-base sm:text-lg w-full sm:w-auto"
                 >
-                  Let's Work →
+                  Let&apos;s Work →
                 </button>
                 <button 
                   onClick={scrollToServices}
@@ -155,7 +155,7 @@ export function Page() {
                 style={{ minHeight: testimonialHeight, transition: 'min-height 0.3s ease-in-out' }}
               >
                 <blockquote className="text-lg sm:text-xl italic mb-4 text-gray-700">
-                  "{testimonials[currentTestimonial].quote}"
+                  &quot;{testimonials[currentTestimonial].quote}&quot;
                 </blockquote>
                 <div className="flex items-center">
                   <Image
@@ -218,7 +218,7 @@ export function Page() {
                   onClick={openMailApp}
                   className="text-green-700 font-semibold flex items-center hover:text-green-800 transition duration-300 text-base sm:text-lg"
                 >
-                  Let's Work Together <ArrowRight size={18} className="ml-2" />
+                  Let&apos;s Work Together <ArrowRight size={18} className="ml-2" />
                 </button>
               </div>
             ))}
@@ -229,7 +229,7 @@ export function Page() {
         <section className="bg-white rounded-3xl shadow-lg overflow-hidden p-6 sm:p-8 md:p-12 lg:p-16">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-6 lg:space-y-0">
             <div>
-              <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">Have a project idea.<br />Let's work together!</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">Have a project idea.<br />Let&apos;s work together!</h2>
               <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 max-w-lg leading-relaxed">
                 Do you fancy saying hi to me or do you want to get started with your project and you need my help? Feel free to contact me.
               </p>
